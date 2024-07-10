@@ -119,11 +119,11 @@ export default function Dashboard() {
                 </td>
                 <td className="py-2">2023-05-15</td>
                 <td className="py-2">
-                  <button className="text-blue-500 hover:underline flex items-center gap-1">
+                  <button className="text-blue-500 hover:underline flex items-center gap-2">
                     <FaEdit />
                     Edit
                   </button>
-                  <button className="text-red-500 hover:underline ml-2 flex items-center gap-1">
+                  <button className="text-red-500 hover:underline ml-2 flex items-center gap-2">
                     <FaTrash />
                     Delete
                   </button>
