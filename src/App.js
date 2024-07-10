@@ -8,6 +8,7 @@ import MainContent from "./components/MainContent";
 import Analytics from "./pages/Analytics";
 import Settings from "./pages/Settings";
 import Dashboard from "./pages/Dashboard";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <div className="flex">
           <Sidebar />
           <Routes>
+            <Route path="/" element={<LandingPage />} />
             <Route path="/content" element={<MainContent />} />
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/settings" element={<Settings />} />

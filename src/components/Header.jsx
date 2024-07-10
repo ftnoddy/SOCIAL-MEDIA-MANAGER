@@ -10,7 +10,7 @@ export default function Header() {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
           <NavLink
-            to="/content"
+            to="/"
             className="text-2xl font-bold hover:text-gray-800 border-b-2 border-transparent hover:border-gray-800 pb-1"
           >
             SM-Manager
